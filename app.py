@@ -467,7 +467,6 @@ def calculate_skill_match(resume_text, job_text):
 # ---------------------------------------------------------
 # MODEL
 # ---------------------------------------------------------
-model = load_model()
 
 resume_embedding = model.encode(
     resume_text,
