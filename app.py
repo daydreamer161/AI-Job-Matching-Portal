@@ -469,7 +469,6 @@ def calculate_skill_match(resume_text, job_text):
 # ---------------------------------------------------------
 @st.cache_resource
 def load_model():
-
     return SentenceTransformer("all-MiniLM-L6-v2")
 
 
