@@ -468,17 +468,6 @@ def calculate_skill_match(resume_text, job_text):
 # MODEL
 # ---------------------------------------------------------
 
-resume_embedding = model.encode(
-    resume_text,
-    convert_to_tensor=True
-)
-
-job_embedding = model.encode(
-    job_description,
-    convert_to_tensor=True
-)
-
-
 # ---------------------------------------------------------
 # INPUT SECTION
 # ---------------------------------------------------------
